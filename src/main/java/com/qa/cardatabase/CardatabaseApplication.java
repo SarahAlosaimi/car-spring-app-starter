@@ -47,7 +47,7 @@ public class CardatabaseApplication {
 		owner_repository.save(owner2);
 		
 		// Add cars with OWNERs
-		repository.save(new Car("Ford", "Focus", "Red",
+		repository.save(new Car("Ford", "Focus", "Red11",
 		"AB17 SWD", 2017, 59000,owner1 ));
 		repository.save(new Car("Audi", "TT", "White",
 		"DE14 VCL", 2014, 29000, owner1));
